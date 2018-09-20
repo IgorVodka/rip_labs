@@ -1,4 +1,5 @@
-from lab_python_oop.shapes import Rectangle, Circle, Square, Color
+from lab_python_oop.shapes import Rectangle, Circle, Square
+from lab_python_oop.color import Color
 
 
 def main():
