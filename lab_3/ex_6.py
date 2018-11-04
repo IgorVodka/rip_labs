@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 import json
 import sys
-from librip.ctxmngrs import timer
-from librip.decorators import print_result
-from librip.gens import field, gen_random
-from librip.iterators import Unique
+from lab_3.librip.ctxmngrs import timer
+from lab_3.librip.decorators import print_result
+from lab_3.librip.gens import field, gen_random
+from lab_3.librip.iterators import Unique
 
 if len(sys.argv) < 2:
     print("Нужно указать параметр пути к файлу")

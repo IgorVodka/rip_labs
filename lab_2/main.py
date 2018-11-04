@@ -1,6 +1,7 @@
 from lab_2.lab_python_oop.shapes import Rectangle, Circle, Square
 from lab_2.lab_python_oop.color import Color
 
+
 def main():
     rectangle = Rectangle(3, 2, Color('синий'))
     circle = Circle(5, Color('зеленый'))

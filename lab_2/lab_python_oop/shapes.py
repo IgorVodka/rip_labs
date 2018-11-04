@@ -64,4 +64,4 @@ class Circle(Shape):
         return 'Круг'
 
     def get_data(self) -> str:
-        return 'pi*{}^2={}'.format(self._radius, self.area())
+        return f'pi*{self._radius}^2={self.area()}'

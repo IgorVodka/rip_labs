@@ -10,7 +10,7 @@ goods = [
 ]
 
 # Реализация задания 1
-print("field 1:", list(field(goods, 'title')))
+print("field 1:", list(field(goods, 'title123')))
 print("field 2:", list(field(goods, 'title', 'price')))
 print("gen_random 1:", list(gen_random(1, 3, 5)))
 print("gen_random 2:", list(gen_random(1, 3, 5)))
